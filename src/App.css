@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: rgb(251, 215, 215);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: aqua;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerDoJogo {
+  border: 3px solid blue;
+  height: 400px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerDosBotoes {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.botao {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: silver;
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.jogadorAtual {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.vencedor {
+  color: red;
+  font-size: 32px;
+}
